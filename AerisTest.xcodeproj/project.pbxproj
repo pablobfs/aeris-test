@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		636E4427192BC49B00F4249C /* CHANGELOG.md in Resources */ = {isa = PBXBuildFile; fileRef = 636E4423192BC49B00F4249C /* CHANGELOG.md */; };
+		636E4428192BC49B00F4249C /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 636E4425192BC49B00F4249C /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		636E4429192BC49B00F4249C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 636E4426192BC49B00F4249C /* README.md */; };
 		63AA124A192A93490076B2AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63AA1249192A93490076B2AA /* Foundation.framework */; };
 		63AA124C192A93490076B2AA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63AA124B192A93490076B2AA /* CoreGraphics.framework */; };
 		63AA124E192A93490076B2AA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63AA124D192A93490076B2AA /* UIKit.framework */; };
@@ -35,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		636E4423192BC49B00F4249C /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CHANGELOG.md; sourceTree = "<group>"; };
+		636E4424192BC49B00F4249C /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		636E4425192BC49B00F4249C /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		636E4426192BC49B00F4249C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		63AA1246192A93490076B2AA /* AerisTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AerisTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63AA1249192A93490076B2AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		63AA124B192A93490076B2AA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -81,6 +88,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		636E4422192BC49B00F4249C /* JSONKit-master */ = {
+			isa = PBXGroup;
+			children = (
+				636E4423192BC49B00F4249C /* CHANGELOG.md */,
+				636E4424192BC49B00F4249C /* JSONKit.h */,
+				636E4425192BC49B00F4249C /* JSONKit.m */,
+				636E4426192BC49B00F4249C /* README.md */,
+			);
+			path = "JSONKit-master";
+			sourceTree = "<group>";
+		};
 		63AA123D192A93490076B2AA = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +133,7 @@
 		63AA1251192A93490076B2AA /* AerisTest */ = {
 			isa = PBXGroup;
 			children = (
+				636E4422192BC49B00F4249C /* JSONKit-master */,
 				63AA125A192A93490076B2AA /* AppDelegate.h */,
 				63AA125B192A93490076B2AA /* AppDelegate.m */,
 				63AA1260192A93490076B2AA /* Images.xcassets */,
@@ -229,6 +248,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				63AA1256192A93490076B2AA /* InfoPlist.strings in Resources */,
+				636E4427192BC49B00F4249C /* CHANGELOG.md in Resources */,
+				636E4429192BC49B00F4249C /* README.md in Resources */,
 				63AA1261192A93490076B2AA /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,6 +271,7 @@
 			files = (
 				63AA125F192A93490076B2AA /* AerisTest.xcdatamodeld in Sources */,
 				63AA125C192A93490076B2AA /* AppDelegate.m in Sources */,
+				636E4428192BC49B00F4249C /* JSONKit.m in Sources */,
 				63AA1258192A93490076B2AA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -449,6 +471,7 @@
 				63AA127A192A93490076B2AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63AA127B192A93490076B2AA /* Build configuration list for PBXNativeTarget "AerisTestTests" */ = {
 			isa = XCConfigurationList;
@@ -457,6 +480,7 @@
 				63AA127D192A93490076B2AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
