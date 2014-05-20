@@ -19,6 +19,7 @@
 		636E4445192BC58200F4249C /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 636E443B192BC58200F4249C /* ASIInputStream.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		636E4446192BC58200F4249C /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 636E443D192BC58200F4249C /* ASINetworkQueue.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		636E444A192BC61000F4249C /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 636E4449192BC61000F4249C /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		636E444C192BC73800F4249C /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 636E444B192BC73800F4249C /* libz.dylib */; };
 		63AA124A192A93490076B2AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63AA1249192A93490076B2AA /* Foundation.framework */; };
 		63AA124C192A93490076B2AA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63AA124B192A93490076B2AA /* CoreGraphics.framework */; };
 		63AA124E192A93490076B2AA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63AA124D192A93490076B2AA /* UIKit.framework */; };
@@ -73,6 +74,7 @@
 		636E443E192BC58200F4249C /* ASIProgressDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIProgressDelegate.h; sourceTree = "<group>"; };
 		636E4448192BC61000F4249C /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		636E4449192BC61000F4249C /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		636E444B192BC73800F4249C /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		63AA1246192A93490076B2AA /* AerisTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AerisTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63AA1249192A93490076B2AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		63AA124B192A93490076B2AA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -98,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				636E444C192BC73800F4249C /* libz.dylib in Frameworks */,
 				63AA124C192A93490076B2AA /* CoreGraphics.framework in Frameworks */,
 				63AA1250192A93490076B2AA /* CoreData.framework in Frameworks */,
 				63AA124E192A93490076B2AA /* UIKit.framework in Frameworks */,
@@ -188,6 +191,7 @@
 		63AA1248192A93490076B2AA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				636E444B192BC73800F4249C /* libz.dylib */,
 				63AA1249192A93490076B2AA /* Foundation.framework */,
 				63AA124B192A93490076B2AA /* CoreGraphics.framework */,
 				63AA124D192A93490076B2AA /* UIKit.framework */,
