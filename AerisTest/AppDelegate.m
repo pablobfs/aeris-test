@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import <Aeris/Aeris.h>
 
 @implementation AppDelegate
 
@@ -16,10 +17,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
+    [AerisEngine engineWithKey:@"ABfGNdAdWUANubPgEhgnl" secret:@"tFb28xn3nJLMD0RwZ52X46qdqE9vbAIb17JGZ1kW"];
+    [AerisEngine enableDebug];
     return YES;
 }
 

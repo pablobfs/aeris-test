@@ -14,4 +14,7 @@
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
     #import <CoreData/CoreData.h>
+    #import <Aeris/Aeris.h>
+    #import <AerisUI/AerisUI.h>
+    #import <AerisMap/AerisMap.h>
 #endif
